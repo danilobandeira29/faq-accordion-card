@@ -26,6 +26,7 @@ body {
   width: 80vw;
   max-width: 1152px;
   height: 60vh;
+  max-height: 1000px;
   background: white;
   margin: 0 2.5rem;
   padding: 4rem 2.5rem;
@@ -130,6 +131,7 @@ body {
     justify-content: space-between;
     position: relative;
     padding: 4rem 7rem 4rem 0;
+    overflow: hidden;
   }
 
   .container .card-header {
@@ -145,8 +147,8 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     margin-left: -5rem;
+    z-index: 2;
   }
 
   .container .image-desktop img:nth-child(2) {
@@ -156,6 +158,7 @@ body {
     position: absolute;
     left: -15%;
     top: 40%;
+    z-index: 3;
   }
   .container .image-desktop img:nth-child(3) {
     display: block;
@@ -164,9 +167,15 @@ body {
     position: absolute;
     top: -50%;
     left: -80%;
+    overflow: hidden;
+    z-index: 1;
   }
 
   .container .card-content {
     max-width: 500px;
+  }
+
+  .container .card-content ul li button:hover h4 {
+    color: hsl(14, 88%, 65%);
   }
 }
