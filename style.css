@@ -83,6 +83,23 @@ body {
   cursor:pointer;
 }
 
+.container .card-content ul li p {
+  color: hsl(240, 6%, 50%);
+  display: none;
+  visibility: hidden;
+}
+
 .container .card-content ul li button h4 {
   font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: hsl(237, 12%, 33%);
+}
+
+.container .card-content ul li.open button h4 {
+  color: hsl(238, 29%, 16%);
+}
+
+.container .card-content ul li.open p {
+  display: block;
+  visibility: visible;
 }
