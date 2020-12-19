@@ -14,25 +14,17 @@
 - [Tecnologias](#-Tecnologias)
 - [Clonar o Projeto](#-Clonar-o-Projeto)
 
-
 ## 📝 Sobre
 
 Webpage feita utilizando html, css e js. Tem como objetivo praticar sobre responsividade, css-grid e flexbox.
 
-
-## 👀 Demonstração
-[Youtube](https://youtu.be/PUxDFqVLkaU)
-
-
 ## 🏆 Desafios
 - [x] Procurar por designs e implementá-los utilizando html, css e js.
-
 
 ## 💻 Tecnologias
 - HTML
 - CSS(grid, flexbox, media queries)
 - Javascript
-
 
 ## 👇 Clonar o Projeto
 Abra um terminal e execute essas linhas:
